@@ -1,3 +1,5 @@
+package atcoder;
+
 import java.util.Scanner;
 import java.util.stream.Stream;
 
