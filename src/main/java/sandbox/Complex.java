@@ -37,7 +37,6 @@ public class Complex {
 				, re * c.im + im * c.re);
 	}
 
-	// (ry
 
 	@Override
 	public boolean equals(Object o) {
