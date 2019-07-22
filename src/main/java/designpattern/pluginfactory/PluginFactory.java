@@ -1,4 +1,4 @@
-package gof.pluginfactory;
+package designpattern.pluginfactory;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -17,11 +17,11 @@ public class PluginFactory {
 			if (pluginMap == null) {
 				pluginMap = new HashMap<String, Plugin>();
 
-				Class<?> clazz1 = Class.forName("gof.pluginfactory.FooPlugin");
+				Class<?> clazz1 = Class.forName("designpattern.pluginfactory.FooPlugin");
 				Plugin fooPlugin = (Plugin) clazz1.newInstance();
 				pluginMap.put("foo", fooPlugin);
 
-				Class<?> clazz2 = Class.forName("gof.pluginfactory.BarPlugin");
+				Class<?> clazz2 = Class.forName("designpattern.pluginfactory.BarPlugin");
 				Plugin barPlugin = (Plugin) clazz2.newInstance();
 				pluginMap.put("bar", barPlugin);
 			}

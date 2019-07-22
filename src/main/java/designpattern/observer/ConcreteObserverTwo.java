@@ -1,4 +1,4 @@
-package gof.observer;
+package designpattern.observer;
 
 public class ConcreteObserverTwo implements Observer {
 	@Override

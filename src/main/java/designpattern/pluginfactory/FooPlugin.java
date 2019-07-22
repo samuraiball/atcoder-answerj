@@ -1,4 +1,4 @@
-package gof.pluginfactory;
+package designpattern.pluginfactory;
 
 public class FooPlugin implements Plugin {
 	@Override

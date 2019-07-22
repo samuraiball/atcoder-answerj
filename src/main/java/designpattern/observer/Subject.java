@@ -1,4 +1,4 @@
-package gof.observer;
+package designpattern.observer;
 
 
 import java.util.ArrayList;

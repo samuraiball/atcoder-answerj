@@ -1,4 +1,4 @@
-package gof.pluginfactory;
+package designpattern.pluginfactory;
 
 public class BarPlugin implements Plugin {
 	@Override
